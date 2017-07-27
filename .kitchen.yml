@@ -19,7 +19,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[delete::default]
+      - recipe[chef-sample-cookbook::default]
     verifier:
       inspec_tests:
         - test/smoke/default

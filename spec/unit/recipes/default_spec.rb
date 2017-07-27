@@ -1,12 +1,12 @@
 #
-# Cookbook:: delete
+# Cookbook:: chef-sample-cookbook
 # Spec:: default
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'delete::default' do
+describe 'chef-sample-cookbook::default' do
   context 'When all attributes are default, on an Ubuntu 16.04' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
